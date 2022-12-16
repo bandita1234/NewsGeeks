@@ -1,0 +1,30 @@
+.card_grp{
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    /* grid-auto-rows: 1fr; */
+    grid-gap: 20px 10px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+
+.card_img{
+    /* width: 286px; */
+    height: 180px;
+    overflow: hidden;
+}
+.card_img img{
+    width: 100%;
+    object-fit: cover;
+}
+.card{
+    /* margin: 16px; */
+    height: 100%;
+    box-shadow: 0 0 10px gray;
+    padding: 6px;
+    overflow: hidden;
+}
+.card a{
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: rgb(14, 152, 145);
+    color: #fff;   
+}

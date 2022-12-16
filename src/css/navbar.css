@@ -1,0 +1,43 @@
+.navbar,.topics,.searchField{
+    display: flex;
+}
+.navbar{
+    justify-content: space-between;
+    padding: 0 80px 0 20px;
+    background-color: #3D5656;
+    color: aliceblue;
+}
+.topics{
+    align-items: center; 
+}
+.topics div{
+    margin: 0 1rem;
+}
+
+.topics a{
+    text-decoration: none;
+    color: #fff;
+}
+.topics .logo{
+    width: 200px;
+}
+.searchField{
+    margin-top:8px;
+    align-items: center; 
+}
+.searchField input{
+    /* width: 200px; */
+    padding: 8px 0 8px 16px;
+    margin-right: 6px;
+}   
+.searchField button{
+    /* width: 100px; */
+    /* height: 30px; */
+    padding: 6px;
+    color:#bad562;
+    background: none;
+    border-color: #bad562;
+    box-shadow: 0 0 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
