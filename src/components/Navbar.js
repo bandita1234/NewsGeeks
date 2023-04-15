@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="topics">
         <div className="logo">
-          <h3>News Geeks</h3>
+          <h3>NewsGeeks</h3>
         </div>
         <div>
           <Link to="/">Home</Link>

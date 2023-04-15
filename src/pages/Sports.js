@@ -1,5 +1,5 @@
 
-//NO NEED FOR THIS PAGE AS WE USE NEWSPAGE.JS
+//NO NEED FOR THIS PAGE AS WE USE NEWSPAGE.JS (Did for Practice Purpose)
 
 import React, { useEffect, useState } from "react";
 import Card from "../components/Card";

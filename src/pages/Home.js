@@ -29,7 +29,10 @@ const Home = () => {
 
   return (
     <>
-      <div>General</div>
+    <div className="heading">
+    <h1>NewsGeeks - Top Picks</h1>
+    <h3>Category : <span style={{color:'#6C00FF'}}>General</span></h3>
+    </div>
       <div className="card_grp">
         {/*if data is null,then can't map..so && */}
         {data &&

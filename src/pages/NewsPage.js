@@ -62,6 +62,10 @@ const NewsPage = () => {
 
   return (
     <>
+    <div className="heading">
+    <h1>NewsGeeks - Top Picks</h1>
+    <h3>Category : <span style={{color:'#6C00FF'}}>{category}</span></h3>
+    </div>
       {loading ? (
         <Loading />
       ) : (
@@ -71,7 +75,6 @@ const NewsPage = () => {
             progress={progress}
             onLoaderFinished={() => setProgress(0)}
           />
-          <div>{category}</div>
           <div>
             <InfiniteScroll
               dataLength={data.articles.length} //This is important field to render the next data
@@ -80,9 +83,10 @@ const NewsPage = () => {
               loader={<h4>Loading...</h4>}
               endMessage={
                 <p style={{ textAlign: "center" }}>
-                  <b>Yay! You have seen it all</b>
+                  <b>Yay! You have seen it all!</b>
                 </p>
               }
+              style={{height:'full',overflow:'none'}}
               className="card_grp"
             >
               {/*if data is null,then can't map..so && */}

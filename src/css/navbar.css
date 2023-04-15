@@ -41,3 +41,7 @@
     font-size: 14px;
     font-weight: 300;
 }
+.topics a:hover{
+    text-decoration: underline;
+    color: #bad562;
+}
